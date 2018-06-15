@@ -1,4 +1,6 @@
-\c buildingdb
+\c buildingsdb
+
+DELETE FROM buildings;
 
 INSERT INTO buildings VALUES (DEFAULT, 'Flatiron Building', 1902, 'New York City', 'Daniel Burnham', 'Renaissance', 'https://cdn.homedit.com/wp-content/uploads/2015/06/Flatiron-Building-exterior-architecture.jpg');
 INSERT INTO buildings VALUES (DEFAULT, 'Chrysler Building', 1930, 'New York City', 'William Van Alen', 'Art Deco', 'https://alphacityguides.com/sites/default/files/chrysler_building.jpg');

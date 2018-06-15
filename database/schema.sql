@@ -1,4 +1,7 @@
-\c buildingdb
+DROP DATABASE buildingsdb;
+CREATE DATABASE buildingsdb;
+
+\c buildingsdb
 
 DROP TABLE IF EXISTS buildings;
 
