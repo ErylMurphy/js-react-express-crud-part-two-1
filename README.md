@@ -1,5 +1,7 @@
 # React Express CRUD Homework
 
+![Image Screenshot](react-express-building-screenshot.png)
+
 ## Objective
 
 - Build an Express.js app that serves a React.js front-end
