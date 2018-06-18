@@ -6,7 +6,6 @@ import "./style.css";
 class Building extends Component {
   render() {
     return (
-
         <div className="building">
           <div className="image-wrapper">
             <img src={this.props.image} />
@@ -18,7 +17,6 @@ class Building extends Component {
             <p>Architect: {this.props.architect}</p>
           </div>
         </div>
-
     );
   }
 }

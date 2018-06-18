@@ -25,12 +25,12 @@ class HomePage extends Component {
       <div className="HomePage">
         {this.state.buildings.map(building => {
           return <Building
+          key = {building.id}
           image={building.image}
           name={building.name}
           style={building.style}
           city={building.city}
-          architect={building.architect}
-        />
+          architect={building.architect} />
         })}
       </div>
     );
